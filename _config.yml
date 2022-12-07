@@ -5,7 +5,7 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - Research Experience.md
+  - ResearchExperience.md
 remote_theme: pages-themes/leap-day@v0.2.0
 title: Research Portfolio
-description: A portfolio of my projects
+description: A portfolio of Kyle''s projects
