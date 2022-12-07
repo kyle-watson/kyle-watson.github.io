@@ -5,3 +5,4 @@ relative_links:
   collections: true
 include:
   - Research Experience.md
+theme: leap-day
