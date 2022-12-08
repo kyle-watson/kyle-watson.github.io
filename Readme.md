@@ -32,7 +32,7 @@ All of the simulations of the hexagonal bundles and multi-bundle networks were u
 
 # Computer Vision
 
-### Non Collapsed CNT recognition
+#### Non Collapsed CNT recognition
 
 Using a combination of morphological filters, thresholding, and contrast correction, I created a method to identify non-collapsed carbon nanotubes in TEM images.
 
@@ -40,7 +40,7 @@ Using a combination of morphological filters, thresholding, and contrast correct
 
 ![A_0017.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/A_0017.png)
 
-### Collapsed CNT recognition
+#### Collapsed CNT recognition
 
 I created a convolutional neural network to identify collapsed carbon nanotubes in TEM images.
 
@@ -64,7 +64,7 @@ This image shows non-collapsed CNTs in teal, collapsed CNT dumbbells in yellow, 
 
 ![0012Total.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/0012Total.png)
 
-# Multiscale Carbon Nanotube Modeling
+# Multiscale CNT Modeling
 
 This multiscale method looks at Molecular Dynamics simulations and simplifies them so their complexity remains feasibly computable. The three levels modeled are:
 
@@ -84,11 +84,11 @@ Another technique I implemented to speed this up is to apply a uniform strain to
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image23.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image23.gif)
 
-### Custom bonding configuration
+#### Custom bonding configuration
 
 ![Untitled](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/Untitled.png)
 
-### Molecular dynamics force parameterization
+### MD force parameterization
 
 Transforming the molecular dynamics simulation into a larger, easier to compute, peridynamic grid involved:
 
@@ -100,11 +100,12 @@ Parameterizing the force response
 
 ![Untitled](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/Untitled%202.png)
 
-### Microstructure geometry creation
+### Composite Microstructure
+#### Microstructure geometry creation
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image8.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image8.png)
 
-### Composite microstructure mechanical tests
+#### Composite microstructure mechanical tests
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image9.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image9.png)
 
@@ -134,7 +135,8 @@ Testing the
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image22.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image22.gif)
 
-### Complex CNT Bundle Generation
+### CNT Bundle
+#### Complex CNT Bundle Generation
 
 It’s important to create a peridynamic grid that does not have intersecting points but still has the underlying features of a carbon nanotube bundle. These are the results of some of my experiments in creating such a grid.
 
@@ -178,7 +180,7 @@ A large, multi bundle structure with strings that split, merge, and form entangl
 
 A CNT bundle network. Each string of points here represents a single bundle
 
-### CNT Bundle Tensile Tests
+#### CNT Bundle Tensile Tests
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image5.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image5.gif)
 
@@ -236,7 +238,7 @@ A CNT bundle network. Each string of points here represents a single bundle
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image13%201.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image13%201.gif)
 
-### CNT Bundle Network Tensile Tests
+### CNT Multibundle Network
 
 Using my open source implementation of peridynamics
 
@@ -250,13 +252,14 @@ Using my open source implementation of peridynamics
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image11%201.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image11%201.gif)
 
-### Hexagonal CNT bundle periodic geometry generation
+### Hexagonal CNT Bundle
+#### Periodic geometry generation
 
 This process was used to create periodic CNT bundles 
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image12.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image12.png)
 
-### Hexagonal Bundle Tensile Tests
+#### Hexagonal Bundle Tensile Tests
 
 From left to right, these gifs show, horizontal displacement, interface failure, CNT failure
 
@@ -298,11 +301,9 @@ Created 3D reconstruction of a 2D simulation of a water droplet deforming due to
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image4.gif](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image4.gif)
 
-# Point cloud visualization
+# Custom Visualization
 
-Visualizing 
-
-SubSampling
+Wrote code to efficiently visualize point clouds
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image3%201.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image3%201.png)
 
@@ -318,7 +319,7 @@ Concave hull generated from a ball-pivoting algorithm over a peridynamic point c
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image7%201.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image7%201.png)
 
-# 2D Crack viewer/organizer
+# 2D Crack viewer
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image1%202.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image1%202.png)
 
