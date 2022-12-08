@@ -1,6 +1,8 @@
 A collection of my projects working for the Computational Multiscale Mechanics Lab at VCU
 
-# Created pen source highly parallel peridynamic simulation written in Julia
+# Open source highly parallel peridynamic simulation written in Julia
+
+I created an open source peridynamic implementation that is easy to install and modify and can run on supercomputers and desktop.
 
 Our lab was using an incredibly buggy, monolithic, untested, legacy peridynamic code written in FORTRAN. There are even some parts written in FORTRAN 77 where comment lines start with the letter ‘c’! So I decided to write my own, open source, peridynamic simulation that could run on a high performance compute cluster, a desktop, and even in a REPL. It helped be become very familiar with peridynamics, it gave the lab a more efficient, tested, and cleaner simulation, and it gave me lots of experience with software development, and since my research is part of USCOMP, a NASA Space Technology Research Institute that is part of the materials genome initiative, developing open source tools was encouraged.
 
