@@ -324,3 +324,19 @@ Concave hull generated from a ball-pivoting algorithm over a peridynamic point c
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image1%202.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image1%202.png)
 
 ![CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image2%202.png](CMSM%20Research%20Portfolio%2070bae4b8e7874397b2088516cbe7ba57/image2%202.png)
+
+# Neural network to interpolate sparse data
+
+The goal of this project is to aid in our research of fracture mechanics by reconstructing cracks from sparse image slices. These fractures create distinct, somewhat continuous shapes in the material. The material remains intact and the cracks do not open, making them difficult to observe. A dye penetrant is applied that seeps into the cracks and highlights the cracks with a contrasting color. The three-dimensional shape of the cracks is visualized using a serial sectioning process. This consists of a repeating cycle of grinding away some material from the cross section and imaging it. This is roughly illustrated on the right. 
+
+The grinding process is slow and labor-intensive, so the number of slices that can be imaged is relatively low. Relative to the resolution of the images, the slice spacing is extremely coarse and likely inconsistent. Producing a 3D reconstruction from this is possible, but the dramatically non-uniform resolution would make the reconstruction difficult to use.
+
+We use a convolutional neural network to predict what slices are between the few we do have. The training data was created by making a 3D model of a crack surface and rendering slices of it in blender.
+
+![](crackimages/image6.png)
+![](crackimages/image2.png)
+![](crackimages/image3.png)
+![](crackimages/image5.png)
+![](crackimages/image7.png)
+![](crackimages/image1.png)
+![](crackimages/image4.png)
